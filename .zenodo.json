@@ -1,10 +1,17 @@
 {
   "upload_type": "software",
   "title": "tsfm-anomaly-detection: experimental harness, results and analysis for \"When Do Zero-Shot Time-Series Foundation Models Pay Off for Anomaly Detection?\"",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "eng",
   "access_right": "open",
   "license": "mit",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21789216",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    }
+  ],
   "creators": [
     {
       "name": "Cai, Siyu",

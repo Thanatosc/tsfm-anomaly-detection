@@ -1,5 +1,8 @@
 # When Do Zero-Shot Time-Series Foundation Models Pay Off for Anomaly Detection?
 
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21789152.svg)](https://doi.org/10.5281/zenodo.21789152)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21789216.svg)](https://doi.org/10.5281/zenodo.21789216)
+
 Code, results and analysis for the paper *"When Do Zero-Shot Time-Series
 Foundation Models Pay Off for Anomaly Detection? Cost Is Not the Barrier, and
 the Bottleneck Is the Score Conversion."*
@@ -51,10 +54,10 @@ baseline. `killtest/test_metrics.py` is the audit that caught it.
 
 Three things are deliberately absent.
 
-**The persisted anomaly scores** — 5504 `.npz` arrays, 234 MB — are being
-deposited on Zenodo, and the DOI will be recorded here once the record is
-published. They let you recompute every metric in the paper, including metrics we
-did not report, without running a single model. The record holds ten parts,
+**The persisted anomaly scores** — 5504 `.npz` arrays, 234 MB — are deposited on
+Zenodo at **[10.5281/zenodo.21789216](https://doi.org/10.5281/zenodo.21789216)**.
+They let you recompute every metric in the paper, including metrics we did not
+report, without running a single model. The record holds ten parts,
 `scores_part01.zip` through `scores_part10.zip`; extract every one into
 `results/` and they merge into a single `results/scores/`. `SHA256SUMS.txt`
 verifies them, and `make_score_parts.py` here is the script that produced the
@@ -182,8 +185,14 @@ profile.
 
 ## Citing
 
-The paper is under review. Until it appears, cite the Zenodo record; the entry
-will be updated here on acceptance.
+The paper is under review. Until it appears, cite the archived artefacts:
+
+| | DOI |
+|---|---|
+| Code (this repository) | [10.5281/zenodo.21789152](https://doi.org/10.5281/zenodo.21789152) — concept DOI, always resolves to the latest version |
+| Data (persisted scores) | [10.5281/zenodo.21789216](https://doi.org/10.5281/zenodo.21789216) |
+
+This section will be updated with the article reference on acceptance.
 
 ## Licence
 
