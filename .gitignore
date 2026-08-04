@@ -9,7 +9,7 @@ __pycache__/
 # duplicate archives whose maintainers already version them.
 data/
 
-# --- persisted anomaly scores: 5504 .npz files, 247 MB ----------------------
+# --- persisted anomaly scores: 5504 .npz files, 234 MB ----------------------
 # Deposited on Zenodo instead, where the record carries a citable DOI. See the
 # "Data availability" section of README.md.
 results/scores/
@@ -52,3 +52,7 @@ abstract_zh_tw.txt
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# --- Zenodo upload staging --------------------------------------------------
+artifacts/zenodo/
+artifacts/scores_archive.zip

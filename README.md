@@ -51,11 +51,14 @@ baseline. `killtest/test_metrics.py` is the audit that caught it.
 
 Three things are deliberately absent.
 
-**The persisted anomaly scores** — 5504 `.npz` arrays, 247 MB — are being
+**The persisted anomaly scores** — 5504 `.npz` arrays, 234 MB — are being
 deposited on Zenodo, and the DOI will be recorded here once the record is
 published. They let you recompute every metric in the paper, including metrics we
-did not report, without running a single model. Unpack the archive into
-`results/scores/`.
+did not report, without running a single model. The record holds ten parts,
+`scores_part01.zip` through `scores_part10.zip`; extract every one into
+`results/` and they merge into a single `results/scores/`. `SHA256SUMS.txt`
+verifies them, and `make_score_parts.py` here is the script that produced the
+split, so you can check that the parts reconstitute exactly what we had.
 
 **The four benchmark corpora** are not redistributed here; they are not ours to
 license, and their maintainers already version them. See
@@ -115,7 +118,7 @@ a half-displaced prediction scored 0.992 by the metric we single out.
 
 ### 2. Recomputing from the persisted scores — needs the Zenodo archive
 
-Download the archive, unpack into `results/scores/`, then:
+Download all ten parts, extract each into `results/`, then:
 
 ```bash
 python analyze_mechanism_v2.py      # regenerates mechanism_v2.csv, correlation_levels.csv, smoothing.csv
