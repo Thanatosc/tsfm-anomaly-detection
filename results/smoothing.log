@@ -1,0 +1,43 @@
+
+
+
+matched series: 360
+
+  40/360
+  80/360
+  120/360
+  160/360
+  200/360
+  240/360
+  280/360
+  320/360
+  360/360
+
+================================================================================================
+Score-level moving average applied to every detector equally (mean VUS-PR)
+================================================================================================
+detector                        w=1       w=32      w=100      w=300
+knn                          0.3223     0.3221     0.3280     0.3033
+ae                           0.3078     0.3087     0.3180     0.2982
+lof                          0.2727     0.2722     0.2800     0.2819
+iforest                      0.1443     0.1452     0.1511     0.1442
+timesfm_resid                0.0796     0.1107     0.1493     0.1609
+tirex_resid                  0.0778     0.1098     0.1491     0.1540
+chronos_base_resid           0.0692     0.0934     0.1225     0.1334
+chronos_small_resid          0.0652     0.0891     0.1226     0.1339
+
+(medians)                       w=1       w=32      w=100      w=300
+knn                          0.2110     0.2132     0.2020     0.1807
+ae                           0.1706     0.1832     0.1749     0.1469
+lof                          0.1062     0.1108     0.1086     0.0930
+iforest                      0.0316     0.0316     0.0315     0.0276
+timesfm_resid                0.0286     0.0481     0.0565     0.0559
+tirex_resid                  0.0250     0.0459     0.0489     0.0516
+chronos_base_resid           0.0229     0.0291     0.0336     0.0370
+chronos_small_resid          0.0209     0.0281     0.0331     0.0361
+
+best TSFM vs best classical at MATCHED post-processing:
+  w=1    best TSFM 0.0796   best classical 0.3223   TSFM reaches 24.7%
+  w=32   best TSFM 0.1107   best classical 0.3221   TSFM reaches 34.4%
+  w=100  best TSFM 0.1493   best classical 0.3280   TSFM reaches 45.5%
+  w=300  best TSFM 0.1609   best classical 0.3033   TSFM reaches 53.0%

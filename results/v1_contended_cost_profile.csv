@@ -1,0 +1,115 @@
+device,detector,dataset,series,n_test,n_channels,runtime_s,cold_s,points_per_s,peak_mb,rss_mb,status
+cuda,iforest,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,3.579,3.73,12517.7,0.0,550.3,ok
+cuda,lof,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,3.355,4.879,13350.8,0.0,564.1,ok
+cuda,knn,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,2.061,3.448,21739.0,0.0,563.6,ok
+cuda,ae,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,14.233,19.761,3147.3,42.3,1074.7,ok
+cuda,chronos_small,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,0.423,35.043,105796.9,249.5,1452.9,ok
+cuda,chronos_base,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,0.735,40.579,60913.6,795.4,1456.8,ok
+cuda,timesfm,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,14.656,31.863,3056.5,1386.9,2035.7,ok
+cuda,tirex,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,17.927,32.086,2498.8,593.6,1302.7,ok
+cuda,iforest,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,1.156,0.334,6503.8,0.0,546.3,ok
+cuda,lof,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.26,2.045,28909.9,0.0,564.7,ok
+cuda,knn,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.165,1.832,45630.8,0.0,559.2,ok
+cuda,ae,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,1.492,5.727,5037.4,25.5,1050.7,ok
+cuda,chronos_small,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.145,24.958,51819.1,171.9,1448.0,ok
+cuda,chronos_base,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.162,26.149,46295.7,592.6,1463.4,ok
+cuda,timesfm,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,2.078,17.534,3616.8,1386.9,2036.2,ok
+cuda,tirex,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,5.401,15.442,1391.9,358.9,1434.6,ok
+cuda,iforest,smd,machine-1-1,28479,38,4.297,3.923,6626.9,0.0,568.1,ok
+cuda,lof,smd,machine-1-1,28479,38,19.121,21.276,1489.4,0.0,578.5,ok
+cuda,knn,smd,machine-1-1,28479,38,13.61,16.028,2092.5,0.0,579.8,ok
+cuda,ae,smd,machine-1-1,28479,38,13.194,17.611,2158.5,669.7,1066.3,ok
+cuda,chronos_small,smd,machine-1-1,28479,38,3.114,31.099,9145.2,249.5,1478.9,ok
+cuda,chronos_base,smd,machine-1-1,28479,38,5.223,34.196,5452.5,795.4,1482.8,ok
+cuda,timesfm,smd,machine-1-1,28479,38,102.884,110.947,276.8,1386.9,2072.2,ok
+cuda,tirex,smd,machine-1-1,28479,38,122.686,136.259,232.1,593.6,1332.3,ok
+cuda,iforest,smd,machine-1-2,23694,38,3.898,3.668,6078.8,0.0,564.3,ok
+cuda,lof,smd,machine-1-2,23694,38,14.049,15.683,1686.5,0.0,575.4,ok
+cuda,knn,smd,machine-1-2,23694,38,9.963,11.201,2378.1,0.0,574.8,ok
+cuda,ae,smd,machine-1-2,23694,38,11.646,16.401,2034.5,583.2,1421.9,ok
+cuda,chronos_small,smd,machine-1-2,23694,38,2.917,30.412,8122.1,249.5,1476.5,ok
+cuda,chronos_base,smd,machine-1-2,23694,38,4.873,35.446,4862.8,795.4,1477.0,ok
+cuda,timesfm,smd,machine-1-2,23694,38,85.684,108.169,276.5,1386.9,2068.0,ok
+cuda,tirex,smd,machine-1-2,23694,38,95.258,107.009,248.7,593.6,1327.6,ok
+cuda,iforest,nasa,P-1,8505,25,1.712,1.815,4967.4,0.0,550.5,ok
+cuda,lof,nasa,P-1,8505,25,0.719,2.421,11826.3,0.0,568.2,ok
+cuda,knn,nasa,P-1,8505,25,0.543,2.156,15651.3,0.0,563.1,ok
+cuda,ae,nasa,P-1,8505,25,2.02,7.06,4210.6,196.2,1055.3,ok
+cuda,chronos_small,nasa,P-1,8505,25,0.994,28.881,8558.9,249.5,1454.4,ok
+cuda,chronos_base,nasa,P-1,8505,25,1.431,29.543,5944.5,795.4,1456.2,ok
+cuda,timesfm,nasa,P-1,8505,25,30.185,48.216,281.8,1386.9,2045.4,ok
+cuda,tirex,nasa,P-1,8505,25,35.598,53.719,238.9,593.6,1441.7,ok
+cuda,iforest,nasa,S-1,7331,25,1.502,1.54,4880.2,0.0,546.9,ok
+cuda,lof,nasa,S-1,7331,25,0.615,2.744,11925.2,0.0,558.8,ok
+cuda,knn,nasa,S-1,7331,25,0.438,2.104,16736.3,0.0,566.1,ok
+cuda,ae,nasa,S-1,7331,25,1.871,6.55,3917.6,184.2,1055.1,ok
+cuda,chronos_small,nasa,S-1,7331,25,0.789,26.744,9287.0,249.5,1454.5,ok
+cuda,chronos_base,nasa,S-1,7331,25,1.367,30.111,5362.5,795.4,1454.8,ok
+cuda,timesfm,nasa,S-1,7331,25,24.001,40.746,305.4,1386.9,2044.0,ok
+cuda,tirex,nasa,S-1,7331,25,34.872,46.332,210.2,593.6,1305.5,ok
+cpu,iforest,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,2.696,2.185,16616.4,0.0,551.2,ok
+cpu,lof,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,2.224,4.049,20138.0,0.0,563.3,ok
+cpu,knn,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,1.959,3.457,22868.8,0.0,563.4,ok
+cpu,ae,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,13.975,18.816,3205.5,42.3,1073.4,ok
+cpu,chronos_small,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,0.417,27.852,107396.1,249.5,1452.1,ok
+cpu,chronos_base,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,44795,1,0.674,30.963,66456.1,795.4,1480.2,ok
+cpu,timesfm,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,ucr,001_UCR_Anomaly_DISTORTED1sddb40_35000_52000_52620,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu,iforest,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.796,0.297,9446.1,0.0,556.3,ok
+cpu,lof,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.255,1.999,29493.6,0.0,564.5,ok
+cpu,knn,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.158,1.85,47717.4,0.0,553.9,ok
+cpu,ae,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,1.187,5.407,6330.2,25.5,1049.6,ok
+cpu,chronos_small,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.124,27.155,60546.8,171.9,1447.8,ok
+cpu,chronos_base,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,7517,1,0.216,30.255,34783.3,592.6,1467.0,ok
+cpu,timesfm,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,ucr,250_UCR_Anomaly_weallwalk_2951_7290_7296,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu,iforest,smd,machine-1-1,28479,38,4.891,4.305,5822.7,0.0,569.7,ok
+cpu,lof,smd,machine-1-1,28479,38,18.121,19.456,1571.6,0.0,580.6,ok
+cpu,knn,smd,machine-1-1,28479,38,12.584,14.326,2263.1,0.0,576.6,ok
+cpu,ae,smd,machine-1-1,28479,38,13.466,18.64,2114.9,669.7,1066.1,ok
+cpu,chronos_small,smd,machine-1-1,28479,38,3.225,31.77,8831.7,249.5,1479.8,ok
+cpu,chronos_base,smd,machine-1-1,28479,38,5.875,38.212,4847.4,795.4,1481.7,ok
+cpu,timesfm,smd,machine-1-1,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,smd,machine-1-1,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu,iforest,smd,machine-1-2,23694,38,4.677,3.269,5066.5,0.0,565.0,ok
+cpu,lof,smd,machine-1-2,23694,38,13.174,14.695,1798.5,0.0,577.4,ok
+cpu,knn,smd,machine-1-2,23694,38,8.753,10.329,2707.0,0.0,574.3,ok
+cpu,ae,smd,machine-1-2,23694,38,10.961,17.208,2161.6,583.2,1422.1,ok
+cpu,chronos_small,smd,machine-1-2,23694,38,2.98,29.696,7949.8,249.5,1476.1,ok
+cpu,chronos_base,smd,machine-1-2,23694,38,4.881,35.429,4854.2,795.4,1478.3,ok
+cpu,timesfm,smd,machine-1-2,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,smd,machine-1-2,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu,iforest,nasa,P-1,8505,25,2.015,0.498,4221.0,0.0,549.5,ok
+cpu,lof,nasa,P-1,8505,25,0.729,2.365,11665.0,0.0,569.3,ok
+cpu,knn,nasa,P-1,8505,25,0.526,2.109,16178.0,0.0,564.8,ok
+cpu,ae,nasa,P-1,8505,25,2.159,6.057,3938.7,196.2,1055.3,ok
+cpu,chronos_small,nasa,P-1,8505,25,1.074,30.293,7918.8,249.5,1454.1,ok
+cpu,chronos_base,nasa,P-1,8505,25,1.973,26.864,4311.1,795.4,1456.2,ok
+cpu,timesfm,nasa,P-1,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,nasa,P-1,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu,iforest,nasa,S-1,7331,25,1.729,0.427,4239.9,0.0,548.9,ok
+cpu,lof,nasa,S-1,7331,25,0.587,2.207,12489.9,0.0,567.0,ok
+cpu,knn,nasa,S-1,7331,25,0.401,1.999,18291.2,0.0,569.2,ok
+cpu,ae,nasa,S-1,7331,25,2.153,14.089,3405.6,184.2,1055.4,ok
+cpu,chronos_small,nasa,S-1,7331,25,1.009,40.346,7268.7,249.5,1455.5,ok
+cpu,chronos_base,nasa,S-1,7331,25,1.641,32.458,4467.9,795.4,1455.3,ok
+cpu,timesfm,nasa,S-1,,,,,,,,"error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m"
+cpu,tirex,nasa,S-1,,,,,,,,error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m

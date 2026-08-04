@@ -1,0 +1,18 @@
+1213 arrays to repair across 147 series (812 TSFM, 401 classical)
+[10/147] 4.2 min elapsed, ok=110 mismatch=0 failed=0
+[20/147] 7.2 min elapsed, ok=221 mismatch=0 failed=0
+[30/147] 11.7 min elapsed, ok=333 mismatch=0 failed=0
+[40/147] 16.6 min elapsed, ok=453 mismatch=0 failed=0
+[50/147] 20.3 min elapsed, ok=567 mismatch=0 failed=0
+[60/147] 22.6 min elapsed, ok=672 mismatch=0 failed=0
+[70/147] 26.6 min elapsed, ok=798 mismatch=0 failed=0
+[80/147] 29.3 min elapsed, ok=914 mismatch=0 failed=0
+[90/147] 35.3 min elapsed, ok=984 mismatch=0 failed=0
+[100/147] 45.6 min elapsed, ok=1053 mismatch=0 failed=0
+[110/147] 55.9 min elapsed, ok=1130 mismatch=0 failed=0
+[120/147] 57.7 min elapsed, ok=1147 mismatch=0 failed=0
+[130/147] 60.0 min elapsed, ok=1164 mismatch=0 failed=0
+[140/147] 62.6 min elapsed, ok=1177 mismatch=0 failed=0
+[147/147] 75.8 min elapsed, ok=1213 mismatch=0 failed=0
+
+DONE  reproduced=1213  mismatched=0  failed=0

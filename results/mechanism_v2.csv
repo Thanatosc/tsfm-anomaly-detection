@@ -1,0 +1,9 @@
+detector,family,n_series,median_effect,ci_lo,ci_hi,mean_vus_pr,knn_over_detector,beats_knn_pct
+knn,classical,340,2.5224,2.1635,3.1187,0.3396,,
+ae,classical,340,2.0089,1.4210,2.7580,0.3231,1.26,47.6
+lof,classical,340,1.3760,1.0127,1.9219,0.2863,1.83,45.3
+iforest,classical,338,0.5239,0.3932,0.6396,0.1518,4.81,18.3
+timesfm_resid,tsfm,340,0.3905,0.2788,0.4926,0.0841,6.46,19.7
+tirex_resid,tsfm,340,0.2568,0.1841,0.3867,0.0823,9.82,20.3
+chronos_base_resid,tsfm,340,0.1575,0.0862,0.2524,0.0731,16.01,18.2
+chronos_small_resid,tsfm,340,0.1444,0.0721,0.2159,0.0689,17.47,20.0

@@ -1,0 +1,35 @@
+# Direct dependencies, pinned to the versions the reported results were produced
+# with. requirements-lock.txt has the complete transitive closure.
+#
+#   python -m venv .venv
+#   .venv/Scripts/activate            # Windows;  source .venv/bin/activate on POSIX
+#   pip install -r requirements.txt
+#
+# Python 3.13.7 was used. torch is pinned to a CUDA 12.4 build; on a CPU-only
+# machine drop the "+cu124" suffix and the --extra-index-url line. Every result
+# in the paper is reproducible on CPU, only more slowly.
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# numerics and plotting
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+
+# foundation models
+torch==2.6.0+cu124
+transformers==5.14.1
+chronos-forecasting==2.3.1
+timesfm==2.0.2
+tirex-ts==1.4.2
+accelerate==1.14.0
+huggingface_hub==1.26.0
+
+# range-based anomaly-detection metrics. Pinned to a commit, not a release:
+# the package is not on PyPI and its API has changed without version bumps.
+affiliation @ git+https://github.com/ahstat/affiliation-metrics-py.git@8d8449858096bbade6a6e70848d05c9cc9b846fe
+
+# cost profiling
+psutil==7.2.2

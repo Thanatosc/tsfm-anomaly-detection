@@ -1,0 +1,54 @@
+# --- environment -----------------------------------------------------------
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- benchmark data: 1.5 GB, all four corpora are public and are fetched -----
+# by killtest/data.py. Redistributing them here would bloat the repository and
+# duplicate archives whose maintainers already version them.
+data/
+
+# --- persisted anomaly scores: 5504 .npz files, 247 MB ----------------------
+# Deposited on Zenodo instead, where the record carries a citable DOI. See the
+# "Data availability" section of README.md.
+results/scores/
+*.npz
+
+# --- the manuscript and its typesetting chain -------------------------------
+# This repository is the code and data artefact, not the paper. The manuscript
+# is under review at a subscription journal, where the accepted version may only
+# be self-archived after an embargo; keeping the prose out entirely avoids both
+# that trap and any ambiguity about whether the MIT licence at the root covers
+# text it was never meant to cover. Springer's sn-jnl.cls and the sn-*.bst files
+# are theirs to distribute, not ours.
+draft.md
+abstract_en.txt
+md2tex.py
+build_paper.sh
+build_bib.py
+verify_dois.py
+latex/
+template/
+
+# --- working scratch -------------------------------------------------------
+artifacts/tmp/
+*.err
+
+# --- internal working documents --------------------------------------------
+# Superseded by draft.md and protocol.md. experiment_report.md in particular
+# still carries a k-NN tuned-vs-default comparison across unequal series counts
+# that protocol.md V2 corrects, so publishing it would put a number in the world
+# that the paper itself does not stand behind.
+experiment_report.md
+peer_review_round1.md
+argument_blueprint.md
+paper_outline.md
+killtest_report.md
+stage1_rq_brief.md
+abstract_zh_tw.txt
+
+# --- OS --------------------------------------------------------------------
+Thumbs.db
+.DS_Store
+desktop.ini

@@ -1,0 +1,115 @@
+cuda  iforest          ucr   001_UCR_Anomaly_DISTORTED1 warm=3.579s cold=3.73s 12517.7pts/s 0.0MB ok
+cuda  lof              ucr   001_UCR_Anomaly_DISTORTED1 warm=3.355s cold=4.879s 13350.8pts/s 0.0MB ok
+cuda  knn              ucr   001_UCR_Anomaly_DISTORTED1 warm=2.061s cold=3.448s 21739.0pts/s 0.0MB ok
+cuda  ae               ucr   001_UCR_Anomaly_DISTORTED1 warm=14.233s cold=19.761s 3147.3pts/s 42.3MB ok
+cuda  chronos_small    ucr   001_UCR_Anomaly_DISTORTED1 warm=0.423s cold=35.043s 105796.9pts/s 249.5MB ok
+cuda  chronos_base     ucr   001_UCR_Anomaly_DISTORTED1 warm=0.735s cold=40.579s 60913.6pts/s 795.4MB ok
+cuda  timesfm          ucr   001_UCR_Anomaly_DISTORTED1 warm=14.656s cold=31.863s 3056.5pts/s 1386.9MB ok
+cuda  tirex            ucr   001_UCR_Anomaly_DISTORTED1 warm=17.927s cold=32.086s 2498.8pts/s 593.6MB ok
+cuda  iforest          ucr   250_UCR_Anomaly_weallwalk_ warm=1.156s cold=0.334s 6503.8pts/s 0.0MB ok
+cuda  lof              ucr   250_UCR_Anomaly_weallwalk_ warm=0.26s cold=2.045s 28909.9pts/s 0.0MB ok
+cuda  knn              ucr   250_UCR_Anomaly_weallwalk_ warm=0.165s cold=1.832s 45630.8pts/s 0.0MB ok
+cuda  ae               ucr   250_UCR_Anomaly_weallwalk_ warm=1.492s cold=5.727s 5037.4pts/s 25.5MB ok
+cuda  chronos_small    ucr   250_UCR_Anomaly_weallwalk_ warm=0.145s cold=24.958s 51819.1pts/s 171.9MB ok
+cuda  chronos_base     ucr   250_UCR_Anomaly_weallwalk_ warm=0.162s cold=26.149s 46295.7pts/s 592.6MB ok
+cuda  timesfm          ucr   250_UCR_Anomaly_weallwalk_ warm=2.078s cold=17.534s 3616.8pts/s 1386.9MB ok
+cuda  tirex            ucr   250_UCR_Anomaly_weallwalk_ warm=5.401s cold=15.442s 1391.9pts/s 358.9MB ok
+cuda  iforest          smd   machine-1-1                warm=4.297s cold=3.923s 6626.9pts/s 0.0MB ok
+cuda  lof              smd   machine-1-1                warm=19.121s cold=21.276s 1489.4pts/s 0.0MB ok
+cuda  knn              smd   machine-1-1                warm=13.61s cold=16.028s 2092.5pts/s 0.0MB ok
+cuda  ae               smd   machine-1-1                warm=13.194s cold=17.611s 2158.5pts/s 669.7MB ok
+cuda  chronos_small    smd   machine-1-1                warm=3.114s cold=31.099s 9145.2pts/s 249.5MB ok
+cuda  chronos_base     smd   machine-1-1                warm=5.223s cold=34.196s 5452.5pts/s 795.4MB ok
+cuda  timesfm          smd   machine-1-1                warm=102.884s cold=110.947s 276.8pts/s 1386.9MB ok
+cuda  tirex            smd   machine-1-1                warm=122.686s cold=136.259s 232.1pts/s 593.6MB ok
+cuda  iforest          smd   machine-1-2                warm=3.898s cold=3.668s 6078.8pts/s 0.0MB ok
+cuda  lof              smd   machine-1-2                warm=14.049s cold=15.683s 1686.5pts/s 0.0MB ok
+cuda  knn              smd   machine-1-2                warm=9.963s cold=11.201s 2378.1pts/s 0.0MB ok
+cuda  ae               smd   machine-1-2                warm=11.646s cold=16.401s 2034.5pts/s 583.2MB ok
+cuda  chronos_small    smd   machine-1-2                warm=2.917s cold=30.412s 8122.1pts/s 249.5MB ok
+cuda  chronos_base     smd   machine-1-2                warm=4.873s cold=35.446s 4862.8pts/s 795.4MB ok
+cuda  timesfm          smd   machine-1-2                warm=85.684s cold=108.169s 276.5pts/s 1386.9MB ok
+cuda  tirex            smd   machine-1-2                warm=95.258s cold=107.009s 248.7pts/s 593.6MB ok
+cuda  iforest          nasa  P-1                        warm=1.712s cold=1.815s 4967.4pts/s 0.0MB ok
+cuda  lof              nasa  P-1                        warm=0.719s cold=2.421s 11826.3pts/s 0.0MB ok
+cuda  knn              nasa  P-1                        warm=0.543s cold=2.156s 15651.3pts/s 0.0MB ok
+cuda  ae               nasa  P-1                        warm=2.02s cold=7.06s 4210.6pts/s 196.2MB ok
+cuda  chronos_small    nasa  P-1                        warm=0.994s cold=28.881s 8558.9pts/s 249.5MB ok
+cuda  chronos_base     nasa  P-1                        warm=1.431s cold=29.543s 5944.5pts/s 795.4MB ok
+cuda  timesfm          nasa  P-1                        warm=30.185s cold=48.216s 281.8pts/s 1386.9MB ok
+cuda  tirex            nasa  P-1                        warm=35.598s cold=53.719s 238.9pts/s 593.6MB ok
+cuda  iforest          nasa  S-1                        warm=1.502s cold=1.54s 4880.2pts/s 0.0MB ok
+cuda  lof              nasa  S-1                        warm=0.615s cold=2.744s 11925.2pts/s 0.0MB ok
+cuda  knn              nasa  S-1                        warm=0.438s cold=2.104s 16736.3pts/s 0.0MB ok
+cuda  ae               nasa  S-1                        warm=1.871s cold=6.55s 3917.6pts/s 184.2MB ok
+cuda  chronos_small    nasa  S-1                        warm=0.789s cold=26.744s 9287.0pts/s 249.5MB ok
+cuda  chronos_base     nasa  S-1                        warm=1.367s cold=30.111s 5362.5pts/s 795.4MB ok
+cuda  timesfm          nasa  S-1                        warm=24.001s cold=40.746s 305.4pts/s 1386.9MB ok
+cuda  tirex            nasa  S-1                        warm=34.872s cold=46.332s 210.2pts/s 593.6MB ok
+cpu   iforest          ucr   001_UCR_Anomaly_DISTORTED1 warm=2.696s cold=2.185s 16616.4pts/s 0.0MB ok
+cpu   lof              ucr   001_UCR_Anomaly_DISTORTED1 warm=2.224s cold=4.049s 20138.0pts/s 0.0MB ok
+cpu   knn              ucr   001_UCR_Anomaly_DISTORTED1 warm=1.959s cold=3.457s 22868.8pts/s 0.0MB ok
+cpu   ae               ucr   001_UCR_Anomaly_DISTORTED1 warm=13.975s cold=18.816s 3205.5pts/s 42.3MB ok
+cpu   chronos_small    ucr   001_UCR_Anomaly_DISTORTED1 warm=0.417s cold=27.852s 107396.1pts/s 249.5MB ok
+cpu   chronos_base     ucr   001_UCR_Anomaly_DISTORTED1 warm=0.674s cold=30.963s 66456.1pts/s 795.4MB ok
+cpu   timesfm          ucr   001_UCR_Anomaly_DISTORTED1 warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            ucr   001_UCR_Anomaly_DISTORTED1 warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu   iforest          ucr   250_UCR_Anomaly_weallwalk_ warm=0.796s cold=0.297s 9446.1pts/s 0.0MB ok
+cpu   lof              ucr   250_UCR_Anomaly_weallwalk_ warm=0.255s cold=1.999s 29493.6pts/s 0.0MB ok
+cpu   knn              ucr   250_UCR_Anomaly_weallwalk_ warm=0.158s cold=1.85s 47717.4pts/s 0.0MB ok
+cpu   ae               ucr   250_UCR_Anomaly_weallwalk_ warm=1.187s cold=5.407s 6330.2pts/s 25.5MB ok
+cpu   chronos_small    ucr   250_UCR_Anomaly_weallwalk_ warm=0.124s cold=27.155s 60546.8pts/s 171.9MB ok
+cpu   chronos_base     ucr   250_UCR_Anomaly_weallwalk_ warm=0.216s cold=30.255s 34783.3pts/s 592.6MB ok
+cpu   timesfm          ucr   250_UCR_Anomaly_weallwalk_ warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            ucr   250_UCR_Anomaly_weallwalk_ warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu   iforest          smd   machine-1-1                warm=4.891s cold=4.305s 5822.7pts/s 0.0MB ok
+cpu   lof              smd   machine-1-1                warm=18.121s cold=19.456s 1571.6pts/s 0.0MB ok
+cpu   knn              smd   machine-1-1                warm=12.584s cold=14.326s 2263.1pts/s 0.0MB ok
+cpu   ae               smd   machine-1-1                warm=13.466s cold=18.64s 2114.9pts/s 669.7MB ok
+cpu   chronos_small    smd   machine-1-1                warm=3.225s cold=31.77s 8831.7pts/s 249.5MB ok
+cpu   chronos_base     smd   machine-1-1                warm=5.875s cold=38.212s 4847.4pts/s 795.4MB ok
+cpu   timesfm          smd   machine-1-1                warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            smd   machine-1-1                warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu   iforest          smd   machine-1-2                warm=4.677s cold=3.269s 5066.5pts/s 0.0MB ok
+cpu   lof              smd   machine-1-2                warm=13.174s cold=14.695s 1798.5pts/s 0.0MB ok
+cpu   knn              smd   machine-1-2                warm=8.753s cold=10.329s 2707.0pts/s 0.0MB ok
+cpu   ae               smd   machine-1-2                warm=10.961s cold=17.208s 2161.6pts/s 583.2MB ok
+cpu   chronos_small    smd   machine-1-2                warm=2.98s cold=29.696s 7949.8pts/s 249.5MB ok
+cpu   chronos_base     smd   machine-1-2                warm=4.881s cold=35.429s 4854.2pts/s 795.4MB ok
+cpu   timesfm          smd   machine-1-2                warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            smd   machine-1-2                warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu   iforest          nasa  P-1                        warm=2.015s cold=0.498s 4221.0pts/s 0.0MB ok
+cpu   lof              nasa  P-1                        warm=0.729s cold=2.365s 11665.0pts/s 0.0MB ok
+cpu   knn              nasa  P-1                        warm=0.526s cold=2.109s 16178.0pts/s 0.0MB ok
+cpu   ae               nasa  P-1                        warm=2.159s cold=6.057s 3938.7pts/s 196.2MB ok
+cpu   chronos_small    nasa  P-1                        warm=1.074s cold=30.293s 7918.8pts/s 249.5MB ok
+cpu   chronos_base     nasa  P-1                        warm=1.973s cold=26.864s 4311.1pts/s 795.4MB ok
+cpu   timesfm          nasa  P-1                        warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            nasa  P-1                        warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+cpu   iforest          nasa  S-1                        warm=1.729s cold=0.427s 4239.9pts/s 0.0MB ok
+cpu   lof              nasa  S-1                        warm=0.587s cold=2.207s 12489.9pts/s 0.0MB ok
+cpu   knn              nasa  S-1                        warm=0.401s cold=1.999s 18291.2pts/s 0.0MB ok
+cpu   ae               nasa  S-1                        warm=2.153s cold=14.089s 3405.6pts/s 184.2MB ok
+cpu   chronos_small    nasa  S-1                        warm=1.009s cold=40.346s 7268.7pts/s 249.5MB ok
+cpu   chronos_base     nasa  S-1                        warm=1.641s cold=32.458s 4467.9pts/s 795.4MB ok
+cpu   timesfm          nasa  S-1                        warm=s cold=s pts/s MB error: no result (rc=1) e [35m162[0m, in [35mforecast[0m
+    assert [1;31mself.global_batch_size > 0[0m
+           [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAssertionError[0m
+cpu   tirex            nasa  S-1                        warm=s cold=s pts/s MB error: no result (rc=1)  deserialize object on CUDA device 0 but torch.cuda.device_count() is 0. Please use torch.load with map_location to map your storages to an existing device.[0m
+DONE

@@ -1,0 +1,53 @@
+dataset,series,domain,anomaly_kind,detector,tier,config,auc_pr,vus_pr,affil_f1,event_f1,runtime_s,tune_s,peak_mb,n_test,n_channels,anomaly_frac,status
+nasa,S-1,smap,point,chronos_small_resid,default,,0.0448,0.05696,0.59337,0.02326,31.36,,249.5,7331,25,0.06111,ok
+nasa,S-1,smap,point,chronos_small_quantile,default,,0.07437,0.08974,0.63225,0.09174,31.36,,249.5,7331,25,0.06111,ok
+nasa,S-1,smap,point,chronos_base_resid,default,,0.04586,0.05874,0.66791,0.03409,3.75,,892.2,7331,25,0.06111,ok
+nasa,S-1,smap,point,chronos_base_quantile,default,,0.05503,0.0668,0.62798,0.05249,3.75,,892.2,7331,25,0.06111,ok
+nasa,S-1,smap,point,timesfm_resid,default,,0.04714,0.05988,0.59622,0.01637,38.24,,1894.7,7331,25,0.06111,ok
+nasa,S-1,smap,point,timesfm_quantile,default,,0.05844,0.07214,0.6613,0.09115,38.24,,1894.7,7331,25,0.06111,ok
+nasa,S-1,smap,point,tirex_resid,default,,0.04711,0.05886,0.67365,0.03409,102.38,,2025.3,7331,25,0.06111,ok
+nasa,S-1,smap,point,tirex_quantile,default,,0.06094,0.07312,0.66873,0.06261,102.38,,2025.3,7331,25,0.06111,ok
+nasa,S-1,smap,point,iforest,default,,0.03567,0.04849,0.5597,0.0061,1.68,,1585.6,7331,25,0.06111,ok
+nasa,S-1,smap,point,iforest,tuned,"{'w': 50, 'n_estimators': 100}",0.03546,0.04727,0.83522,0.00838,1.18,4.9,0.0,7331,25,0.06111,ok
+nasa,S-1,smap,point,lof,default,,0.03568,0.04785,0.56491,0.00688,1.23,,1585.6,7331,25,0.06111,ok
+nasa,S-1,smap,point,lof,tuned,"{'w': 200, 'k': 10}",0.03489,0.04571,0.51901,0.0,0.69,2.55,0.0,7331,25,0.06111,ok
+nasa,S-1,smap,point,knn,default,,0.0387,0.05124,0.55745,0.00552,0.55,,1585.6,7331,25,0.06111,ok
+nasa,S-1,smap,point,knn,tuned,"{'w': 200, 'k': 1}",0.04121,0.05148,0.51608,0.0,0.53,1.38,0.0,7331,25,0.06111,ok
+nasa,S-1,smap,point,ae,default,,0.04038,0.05387,0.56376,0.01292,2.21,,1761.3,7331,25,0.06111,ok
+nasa,S-1,smap,point,ae,tuned,"{'w': 200, 'hidden': 32, 'latent': 16}",0.04796,0.0617,0.53825,0.01379,2.88,7.36,0.0,7331,25,0.06111,ok
+nasa,E-3,smap,point,chronos_small_resid,default,,0.23963,0.24612,0.54146,0.06314,1.48,,1738.6,8307,25,0.38678,ok
+nasa,E-3,smap,point,chronos_small_quantile,default,,0.31865,0.3257,0.61562,0.09564,1.48,,1738.6,8307,25,0.38678,ok
+nasa,E-3,smap,point,chronos_base_resid,default,,0.24239,0.249,0.54057,0.06324,2.94,,1970.5,8307,25,0.38678,ok
+nasa,E-3,smap,point,chronos_base_quantile,default,,0.32371,0.33001,0.63556,0.09313,2.94,,1970.5,8307,25,0.38678,ok
+nasa,E-3,smap,point,timesfm_resid,default,,0.24173,0.24886,0.55321,0.07237,34.97,,2046.7,8307,25,0.38678,ok
+nasa,E-3,smap,point,timesfm_quantile,default,,0.33378,0.33976,0.65222,0.24579,34.97,,2046.7,8307,25,0.38678,ok
+nasa,E-3,smap,point,tirex_resid,default,,0.24252,0.24859,0.58254,0.08333,488.66,,2033.8,8307,25,0.38678,ok
+nasa,E-3,smap,point,tirex_quantile,default,,0.33275,0.33851,0.71747,0.25583,488.66,,2033.8,8307,25,0.38678,ok
+nasa,E-3,smap,point,iforest,default,,0.26638,0.27028,0.86871,0.25,1.79,,1594.1,8307,25,0.38678,ok
+nasa,E-3,smap,point,iforest,tuned,"{'w': 50, 'n_estimators': 200}",0.26508,0.27113,0.88119,0.25,6.43,8.13,0.0,8307,25,0.38678,ok
+nasa,E-3,smap,point,lof,default,,0.30637,0.31216,0.88665,0.25,1.23,,1594.1,8307,25,0.38678,ok
+nasa,E-3,smap,point,lof,tuned,"{'w': 200, 'k': 10}",0.32831,0.33244,0.88675,0.25,2.05,8.83,0.0,8307,25,0.38678,ok
+nasa,E-3,smap,point,knn,default,,0.30966,0.31511,0.88585,0.25,0.7,,1594.1,8307,25,0.38678,ok
+nasa,E-3,smap,point,knn,tuned,"{'w': 50, 'k': 3}",0.27628,0.2854,0.88077,0.25,1.52,1.67,0.0,8307,25,0.38678,ok
+nasa,E-3,smap,point,ae,default,,0.29713,0.30193,0.88899,0.25,2.77,,1771.3,8307,25,0.38678,ok
+nasa,E-3,smap,point,ae,tuned,"{'w': 200, 'hidden': 32, 'latent': 16}",0.34955,0.35287,0.89601,0.25,2.26,6.94,0.0,8307,25,0.38678,ok
+nasa,E-6,smap,point,chronos_small_resid,default,,0.03723,0.02681,0.65232,0.15929,0.92,,1738.6,8300,25,0.00795,ok
+nasa,E-6,smap,point,chronos_small_quantile,default,,0.02043,0.02533,0.63778,0.05009,0.92,,1738.6,8300,25,0.00795,ok
+nasa,E-6,smap,point,chronos_base_resid,default,,0.02259,0.02749,0.61587,0.05284,1.64,,1970.5,8300,25,0.00795,ok
+nasa,E-6,smap,point,chronos_base_quantile,default,,0.01689,0.02285,0.65402,0.03253,1.64,,1970.5,8300,25,0.00795,ok
+nasa,E-6,smap,point,timesfm_resid,default,,0.01889,0.02398,0.64798,0.03674,32.58,,2046.7,8300,25,0.00795,ok
+nasa,E-6,smap,point,timesfm_quantile,default,,0.01369,0.01592,0.66742,0.02631,32.58,,2046.7,8300,25,0.00795,ok
+nasa,E-6,smap,point,tirex_resid,default,,0.02663,0.02683,0.61762,0.06652,62.48,,2033.8,8300,25,0.00795,ok
+nasa,E-6,smap,point,tirex_quantile,default,,0.01193,0.01501,0.65903,0.01722,62.48,,2033.8,8300,25,0.00795,ok
+nasa,E-6,smap,point,iforest,default,,0.01509,0.0272,0.65109,0.03072,1.8,,1594.1,8300,25,0.00795,ok
+nasa,E-6,smap,point,iforest,tuned,"{'w': 50, 'n_estimators': 200}",0.12076,0.11797,0.85078,0.27662,1.95,6.07,0.0,8300,25,0.00795,ok
+nasa,E-6,smap,point,lof,default,,0.67718,0.65429,0.99711,0.76234,0.81,,1594.1,8300,25,0.00795,ok
+nasa,E-6,smap,point,lof,tuned,"{'w': 200, 'k': 10}",0.49829,0.54768,0.99713,0.6721,1.04,2.19,0.0,8300,25,0.00795,ok
+nasa,E-6,smap,point,knn,default,,0.49665,0.46047,0.99711,0.58763,0.64,,1594.1,8300,25,0.00795,ok
+nasa,E-6,smap,point,knn,tuned,"{'w': 50, 'k': 3}",0.55301,0.47518,0.99737,0.60878,1.48,1.78,0.0,8300,25,0.00795,ok
+nasa,E-6,smap,point,ae,default,,0.77898,0.78264,0.99755,0.83653,2.24,,1771.2,8300,25,0.00795,ok
+nasa,E-6,smap,point,ae,tuned,"{'w': 200, 'hidden': 32, 'latent': 16}",0.75917,0.77931,0.99742,0.80661,3.06,7.55,0.0,8300,25,0.00795,ok
+nasa,E-9,smap,point,chronos_small_resid,default,,0.04422,0.05585,0.60846,0.05368,1.38,,1738.6,8302,25,0.04228,ok
+nasa,E-9,smap,point,chronos_small_quantile,default,,0.0511,0.06284,0.63775,0.05243,1.38,,1738.6,8302,25,0.04228,ok
+nasa,E-9,smap,point,chronos_base_resid,default,,0.04521,0.05513,0.60095,0.06863,2.6,,1970.5,8302,25,0.04228,ok
+nasa,E-9,smap,point,chronos_base_quantile,default,,0.04233,0.05338,0.64426,0.03766,2.6,,1970.5,8302,25,0.04228,ok
