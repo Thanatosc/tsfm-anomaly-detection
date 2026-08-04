@@ -56,3 +56,6 @@ desktop.ini
 # --- Zenodo upload staging --------------------------------------------------
 artifacts/zenodo/
 artifacts/scores_archive.zip
+
+# --- editor/agent local state ----------------------------------------------
+.claude/
