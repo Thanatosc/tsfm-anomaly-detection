@@ -1,0 +1,23 @@
+{
+  "upload_type": "software",
+  "title": "tsfm-anomaly-detection: experimental harness, results and analysis for \"When Do Zero-Shot Time-Series Foundation Models Pay Off for Anomaly Detection?\"",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Cai, Siyu",
+      "orcid": "0009-0003-3716-0008",
+      "affiliation": "School of Computing and Artificial Intelligence, Southwest Jiaotong University"
+    }
+  ],
+  "keywords": [
+    "Time-series anomaly detection",
+    "Time-series foundation models",
+    "Zero-shot evaluation",
+    "Cost-aware model selection",
+    "Evaluation metrics"
+  ],
+  "description": "<p>The experimental harness, merged result records and analysis code behind a negative result: eight zero-shot configurations of four pretrained time-series foundation models, compared against four classical detectors on 360 series from four public benchmarks (UCR Anomaly Archive 2021, SMD, SMAP/MSL, PSM) under a three-tier protocol, for 5504 result records and a separately measured cost profile.</p><p>Averaged over all series the best zero-shot configuration reaches 0.080 VUS-PR against 0.322 for a k-nearest-neighbour detector left at its defaults. Cost does not explain the gap and inverts it: once weights are resident the fastest foundation model beats the strongest baseline's throughput by 1.78&times;. Within a series, <em>lower</em> forecast error goes with <em>better</em> detection (rank correlation &minus;0.415), contradicting the published explanation that these models fail by reconstructing anomalies too faithfully. A score-level moving average, using no labels and no extra inference, lifts them from 25&nbsp;% to 53&nbsp;% of the best classical detector while leaving that detector unmoved. The bottleneck is the conversion from forecast to anomaly score, not the forecast.</p><p>A fourth result is methodological: of the four metrics used, one assigns a near-perfect score to detectors that flag everything, flag nothing, or predict in the wrong place. <code>killtest/test_metrics.py</code> is the adversarial audit that caught it, and it needs no data to run.</p><p>This record archives the code, the 5504 merged result records, the isolated cost profile and the five figures. The persisted anomaly scores (5504 arrays, 247&nbsp;MB) are deposited as a separate dataset record. The four benchmark corpora are not redistributed; they carry their own licences and are versioned by their own maintainers. The manuscript is not included: it is under review at a subscription journal.</p>"
+}
