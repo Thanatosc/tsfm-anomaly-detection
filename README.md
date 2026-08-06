@@ -106,9 +106,29 @@ python -m killtest.analyze_full     # the stratified tables
 python -m killtest.test_metrics     # the adversarial metric audit
 ```
 
-`test_metrics` needs no data at all: it synthesises the six degenerate detectors
-(flag everything, flag nothing, white noise, one wrong region, a half-window
-displacement, and the ground truth itself) and reports what each metric assigns
+Two further checks answer objections the paper raises against itself, and both are
+released rather than asserted:
+
+```bash
+python -m killtest.horizon_check          # writes results/horizon_detrend.csv
+pip install vus                           # not a harness dependency; install to run the next one
+python -m killtest.vus_reference_check    # writes results/vus_reference_check.csv
+```
+
+`horizon_check` measures the period-64 ramp that non-overlapping forecast blocks
+inject into every foundation-model score, and asks what removing it is worth: on
+182 series the ramp accounts for 2 % of what the score-level moving average
+recovers, so the smoothing result of Section 5.6 is not an artefact of our own
+block schedule. `vus_reference_check` compares our VUS-PR against the reference
+implementation of Paparrizos et al. on 1 368 paired values spanning all four
+benchmarks; they agree at Spearman 0.991, and the headline ratio moves from 34.0 %
+to 34.1 %. Install `vus` in a throwaway environment — it pins old numpy,
+tensorflow and numba, and will fight the harness's own pins.
+
+`test_metrics` needs no data at all: it synthesises the seven constructed
+detectors (the ground truth itself, flag everything, flag nothing, white noise, a
+contiguous blob placed at the true anomaly, the same blob placed elsewhere, and a
+prediction displaced by half a window) and reports what each metric assigns
 them. That is the whole audit — you should see a random detector scored 0.669 and
 a half-displaced prediction scored 0.992 by the metric we single out.
 
